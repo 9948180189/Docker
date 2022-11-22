@@ -54,7 +54,7 @@ Source file : **/*.gz
 Exec Command 
 
 mv ./home/ubuntu/one/node-js-sample/Node.tar.gz /home/ubuntu/test/Node.tar.gz;
-cd /home/ubuntu/test/
+cd /home/ubuntu/test/;
 tar -xf Node.tar.gz ;
 docker rmi nodeimage;
 docker stop nodecontainer;
